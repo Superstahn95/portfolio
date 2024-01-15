@@ -1,4 +1,5 @@
 import React from "react";
+import { projects } from "../assets/data";
 import IndividualProject from "./IndividualProject";
 
 function Projects({ id, onSectionChange }) {
@@ -12,7 +13,9 @@ function Projects({ id, onSectionChange }) {
       {/* featured projects section */}
       <div>
         <ul>
-          <IndividualProject />
+          {projects.map((project) => (
+            <IndividualProject project={project} key={project.id} />
+          ))}
         </ul>
       </div>
     </>

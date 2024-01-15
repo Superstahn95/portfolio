@@ -1,6 +1,6 @@
 import React from "react";
 
-function IndividualProject() {
+function IndividualProject({ project }) {
   return (
     <li className="mb-12">
       <div className="group relative grid gap-4 pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50">
@@ -9,14 +9,14 @@ function IndividualProject() {
           <h3>
             <a
               class="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300  group/link text-base"
-              href="https://www.newline.co/courses/build-a-spotify-connected-app"
+              href={project.link}
               target="_blank"
               rel="noreferrer"
               aria-label="Build a Spotify Connected App"
             >
               <span class="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block"></span>
               <span>
-                Build a Spotify Connected{" "}
+                {project.name}
                 <span class="inline-block">
                   App
                   <svg
@@ -36,14 +36,11 @@ function IndividualProject() {
               </span>
             </a>
           </h3>
-          <p class="mt-2 text-sm leading-normal">
-            Video course that teaches how to build a web app with the Spotify
-            Web API. Topics covered include the principles of REST APIs, user
-            auth flows, Node, Express, React, Styled Components, and more.
-          </p>
+          <p class="mt-2 text-sm leading-normal">{project.description}</p>
         </div>
         <img
-          src="https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=800"
+          // src="https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=800"
+          src={project.imageUrl}
           alt=""
           className="rounded border-2 border-slate-200/10 transition group-hover:border-slate-200/30  sm:order-1 sm:col-span-2 sm:translate-y-1"
         />
