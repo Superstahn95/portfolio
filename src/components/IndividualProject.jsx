@@ -37,6 +37,15 @@ function IndividualProject({ project }) {
             </a>
           </h3>
           <p class="mt-2 text-sm leading-normal">{project.description}</p>
+          <ul class="mt-2 flex flex-wrap" aria-label="Technologies used">
+            {project.technologies.map((tech) => (
+              <li key={tech} class="mr-1.5 mt-2">
+                <div class="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                  {tech}
+                </div>
+              </li>
+            ))}
+          </ul>
         </div>
         <img
           // src="https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=800"

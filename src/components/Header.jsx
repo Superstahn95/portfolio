@@ -13,10 +13,26 @@ const headerLinks = [
   { id: 3, text: "projects" },
 ];
 const socials = [
-  { id: 1, icon: <AiOutlineGithub size={30} /> },
-  { id: 2, icon: <AiOutlineInstagram size={30} /> },
-  { id: 3, icon: <AiOutlineTwitter size={30} /> },
-  { id: 4, icon: <AiOutlineLinkedin size={30} /> },
+  {
+    id: 1,
+    icon: <AiOutlineGithub size={30} />,
+    link: "https://github.com/Superstahn95",
+  },
+  {
+    id: 2,
+    icon: <AiOutlineInstagram size={30} />,
+    link: "https://instagram.com/superstahn",
+  },
+  {
+    id: 3,
+    icon: <AiOutlineTwitter size={30} />,
+    link: "https://twitter.com/superstahn",
+  },
+  {
+    id: 4,
+    icon: <AiOutlineLinkedin size={30} />,
+    link: "https://linkedIn.com/superstahn95",
+  },
 ];
 function Header({ activeSection }) {
   return (
@@ -26,7 +42,7 @@ function Header({ activeSection }) {
           Chukwuemeka Stanley
         </h1>
         <h2 className="mt-3 text-lg font-medium tracking-tight text-teal-300 sm:text-xl">
-          Full stack web and mobile developer
+          MERN Stack developer
         </h2>
         <p className="mt-4 max-w-xs  leading-normal">
           I build accessible, inclusive products and digital experiences for the
@@ -51,7 +67,9 @@ function Header({ activeSection }) {
             key={social.id}
             className="mr-5 text-xs cursor-pointer hover:text-slate-200"
           >
-            {social.icon}
+            <a href={social.link} target="_blank">
+              {social.icon}
+            </a>
           </li>
         ))}
       </ul>
