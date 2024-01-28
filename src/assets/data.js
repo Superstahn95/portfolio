@@ -63,7 +63,16 @@ export const projects = [
     imageUrl: "/images/dunisforum.png",
     completed: true,
   },
-
+  {
+    id: 6,
+    name: "Analytics dashboard",
+    description:
+      "I took part in the geegpay frontend challenge and this was my final submitted entry. It is an analytics dashboard in which we were tasked with making",
+    link: "https://analytics-dashboard-sbtp.onrender.com",
+    technologies: ["Javascript", "React", "Tailwind", "Render"],
+    imageUrl: "/images/dashboard-dark.png",
+    completed: true,
+  },
   {
     id: 4,
     name: "Educen",
@@ -79,6 +88,26 @@ export const projects = [
       "Render",
     ],
     imageUrl: "/images/educen.png",
+    completed: false,
+  },
+  {
+    id: 5,
+    name: "Project Schedule Manager",
+    description:
+      "This is a personal build for scheduling and keeping track of my builds. This came out of the need for a self made time management tool for my builds and it was also my first time using GraphQL as my query language with apollo client on the frontend which is quite good for state management and data caching as well",
+    link: "https://dunisforum.onrender.com",
+    technologies: [
+      "Javascript",
+      "GraphQL",
+      "Apollo Server",
+      "Apollo Client",
+      "React",
+      "Tailwind",
+      "Node",
+      "Express",
+      "Render",
+    ],
+    imageUrl: "/images/projectschedulemgr.png",
     completed: false,
   },
 ];

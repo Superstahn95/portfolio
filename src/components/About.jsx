@@ -10,22 +10,21 @@ function About({ id, onSectionChange }) {
       </div>
       <div>
         <p className="mb-4">
-          In 2020 I wrote my first ever “hello world” with html which happens to
+          In 2022 I wrote my first ever “hello world” with html which happens to
           be the first code output of almost if not all developers out there. I
           went through making traditional static pages with html and css and
           temporarily abandoned following up anymore until a year later.
           Fast-forward to today, i have developed a lot of love and appreciation
-          for javascript which happens to be the center of my builds so far.
-          Though not yet in production, i have built a lot of practice projects
-          ranging from web apps to backend api(s) using the
-          <span className="text-teal-300"> MERN stack</span> while also making
-          practice apps using{" "}
-          <span className="text-teal-300">React Native</span>.
+          for javascript which happens to be the center of my builds so far. I
+          have built a lot of practice projects ranging from web apps to backend
+          api(s) using the
+          <span className="text-teal-300"> MERN stack</span> while also taking a
+          course <span className="text-teal-300">React Native</span> in my spare
+          time.
         </p>
         <p class="mb-4">
           My main focus these days as it has always been remains to keep
-          building projects app and web inclusive which in turn makes me a much
-          better dev
+          building projects while in search of real industry experience
         </p>
       </div>
     </>

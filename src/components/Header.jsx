@@ -45,8 +45,8 @@ function Header({ activeSection }) {
           MERN Stack developer
         </h2>
         <p className="mt-4 max-w-xs  leading-normal">
-          I build accessible, inclusive products and digital experiences for the
-          web.
+          An engineering graduate and a developer. I build accessible, inclusive
+          products and digital experiences for the web.
         </p>
         {/* links */}
         <nav class="nav hidden lg:block" aria-label="In-page jump links">
