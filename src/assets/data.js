@@ -78,7 +78,7 @@ export const projects = [
     name: "Educen",
     description:
       "Although still in progress and just some part of the UI done for now, this build is going to be an online learning platform in which students are assigned to tutors, test and quizzes are taken online as well. Server side and users and admin dashboard still in progress",
-    link: "https://dunisforum.onrender.com",
+    link: "https://educen.onrender.com",
     technologies: [
       "Javascript",
       "React",
