@@ -40,10 +40,28 @@ export const projects = [
     description:
       "This was the result of the getklinked hackathon which i was a part of. After being handed a figma design file, the goal was to replicate the design as much as possibble.",
     link: "https://getlinked-57e41.web.app",
-    languagesAndTools: ["Javascript", "React", "Firebase", "Tailwind"],
     imageUrl: "/images/getlinked.png",
     completed: true,
     technologies: ["React", "Redux", "Render", "Javascript", "Firebase"],
+  },
+  {
+    id: 8,
+    name: "Clothing Ecommerce",
+    description:
+      "A full stack shopping application built with the MERN stack with a test payment platform (PAYSTACK) integrated in the server side. The build also has an admin dashboard for creating new shop items and a client dashboard for editing profile data and seeing status of previously made orders. The build is still pending other features which will be integrated in time",
+    link: "https://fashion-ecommerce-72qi.onrender.com",
+    imageUrl: "/images/fashion.png",
+    completed: true,
+    technologies: [
+      "Javascript",
+      "React",
+      "Node js",
+      "Tailwind",
+      "Express",
+      "Paystack",
+      "MongoDB",
+      "Render",
+    ],
   },
   {
     id: 3,
@@ -113,7 +131,7 @@ export const projects = [
     id: 5,
     name: "Project Schedule Manager",
     description:
-      "This is a personal build for scheduling and keeping track of my builds. This came out of the need for a self made time management tool for my builds and it was also my first time using GraphQL as my query language with apollo client on the frontend which is quite good for state management and data caching as well",
+      "This is a personal build for scheduling and keeping track of my builds with a little bit of security on the frontend to restrict visitors from seeing my client details and also to restrict them from being able to write to my databases from the client as well. This came out of the need for a self made time management tool for my builds and it was also my first time using GraphQL as my query language with apollo client on the frontend which is quite good for state management and data caching as well. The app is not yet in use but the build is complete at least for now.",
     link: "https://project-mgr.onrender.com",
     technologies: [
       "Javascript",
