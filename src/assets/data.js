@@ -64,6 +64,25 @@ export const projects = [
     completed: true,
   },
   {
+    id: 7,
+    name: "Social Media",
+    description:
+      "A social media application with a real time chat messaging system.The build has some common social media features and this was my first time making use of web sockets in my build and getting to see how they work.",
+    link: "https://social-app-4miw.onrender.com",
+    technologies: [
+      "Javascript",
+      "Socket",
+      "React",
+      "Tailwind",
+      "Node",
+      "Express",
+      "Render",
+      "Redux",
+    ],
+    imageUrl: "/images/socialmedia.png",
+    completed: true,
+  },
+  {
     id: 6,
     name: "Analytics dashboard",
     description:

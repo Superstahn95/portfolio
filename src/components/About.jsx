@@ -19,7 +19,7 @@ function About({ id, onSectionChange }) {
           have built a lot of practice projects ranging from web apps to backend
           api(s) using the
           <span className="text-teal-300"> MERN stack</span> while also taking a
-          course <span className="text-teal-300">React Native</span> in my spare
+          <span className="text-teal-300">React Native</span> course in my spare
           time.
         </p>
         <p class="mb-4">
