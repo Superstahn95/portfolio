@@ -31,7 +31,7 @@ const socials = [
   {
     id: 4,
     icon: <AiOutlineLinkedin size={30} />,
-    link: "https://linkedIn.com/superstahn95",
+    link: "https://www.linkedin.com/in/stanley-chukwuemeka-55a172298?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
   },
 ];
 function Header({ activeSection }) {
