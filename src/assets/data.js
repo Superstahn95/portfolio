@@ -114,7 +114,7 @@ export const projects = [
     name: "Project Schedule Manager",
     description:
       "This is a personal build for scheduling and keeping track of my builds. This came out of the need for a self made time management tool for my builds and it was also my first time using GraphQL as my query language with apollo client on the frontend which is quite good for state management and data caching as well",
-    link: "https://dunisforum.onrender.com",
+    link: "https://project-mgr.onrender.com",
     technologies: [
       "Javascript",
       "GraphQL",
