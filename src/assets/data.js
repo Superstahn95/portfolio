@@ -32,6 +32,9 @@ export const projects = [
       "Render",
       "Context",
     ],
+    githubClientUrl:
+      "https://github.com/Superstahn95/property-listings-frontend",
+    githubServerUrl: "https://github.com/Superstahn95/property-listings-server",
   },
 
   {
@@ -43,6 +46,7 @@ export const projects = [
     imageUrl: "/images/getlinked.png",
     completed: true,
     technologies: ["React", "Redux", "Render", "Javascript", "Firebase"],
+    githubClientUrl: "https://github.com/Superstahn95/getlinked-react",
   },
   {
     id: 8,
@@ -62,6 +66,8 @@ export const projects = [
       "MongoDB",
       "Render",
     ],
+    githubClientUrl: "https://github.com/Superstahn95/fashion-E-commerce-web",
+    githubServerUrl: "https://github.com/Superstahn95/fashion-ecommerce",
   },
   {
     id: 3,
@@ -80,6 +86,8 @@ export const projects = [
     ],
     imageUrl: "/images/dunisforum.png",
     completed: true,
+    githubClientUrl: "https://github.com/Superstahn95/dunis-forum",
+    githubServerUrl: "https://github.com/Superstahn95/dunis-forum-backend",
   },
   {
     id: 7,
@@ -98,6 +106,8 @@ export const projects = [
       "Redux",
     ],
     imageUrl: "/images/socialmedia.png",
+    githubClientUrl: "https://github.com/Superstahn95/social-app-client",
+    githubServerUrl: "https://github.com/Superstahn95/social-app-server",
     completed: true,
   },
   {
@@ -108,6 +118,7 @@ export const projects = [
     link: "https://analytics-dashboard-sbtp.onrender.com",
     technologies: ["Javascript", "React", "Tailwind", "Render"],
     imageUrl: "/images/dashboard-dark.png",
+    githubClientUrl: "https://github.com/Superstahn95/analytics-dashboard",
     completed: true,
   },
   {
@@ -126,6 +137,7 @@ export const projects = [
     ],
     imageUrl: "/images/educen.png",
     completed: false,
+    githubClientUrl: "https://github.com/Superstahn95/educen",
   },
   {
     id: 5,
@@ -146,5 +158,9 @@ export const projects = [
     ],
     imageUrl: "/images/projectschedulemgr.png",
     completed: false,
+    githubClientUrl:
+      "https://github.com/Superstahn95/project-manager-server-graphQL",
+    githubServerUrl:
+      "https://github.com/Superstahn95/project-manager-server-graphQL",
   },
 ];
