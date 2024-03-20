@@ -23,7 +23,7 @@ function HomePage() {
           </Section>
           <Section id={"experience"} onSectionChange={handleSectionChange}>
             <Experience />
-            <div className="mt-12">
+            {/* <div className="mt-12">
               <a
                 class="inline-flex items-baseline leading-tight  hover:text-teal-300 focus-visible:text-teal-300 font-semibold text-slate-200 group/link text-base"
                 href="/resume"
@@ -51,7 +51,7 @@ function HomePage() {
                   </span>
                 </span>
               </a>
-            </div>
+            </div> */}
           </Section>
           <Section id={"projects"} onSectionChange={handleSectionChange}>
             <Projects />
