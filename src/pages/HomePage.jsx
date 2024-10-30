@@ -5,13 +5,13 @@ import Projects from "../components/Projects";
 import { useState } from "react";
 import Section from "../components/Section";
 import { Link } from "react-router-dom"; //new line
+
 function HomePage() {
   const [activeSection, setActiveSection] = useState("about");
 
   const handleSectionChange = (sectionId) => {
     setActiveSection(sectionId);
   };
-  console.log(activeSection);
   return (
     <section className="font-montserrat px-6 py-12 min-h-screen max-w-screen-xl mx-auto md:px-12 md:py:20 lg:px-24 lg:py-0">
       <div className="lg:flex lg:justify-between lg:gap-4 ">
@@ -73,9 +73,9 @@ function HomePage() {
                     aria-hidden="true"
                   >
                     <path
-                      fill-rule="evenodd"
+                      fillRule="evenodd"
                       d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z"
-                      clip-rule="evenodd"
+                      clipRule="evenodd"
                     ></path>
                   </svg>
                 </span>
