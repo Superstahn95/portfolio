@@ -159,28 +159,28 @@ export const projects = [
     completed: false,
     githubClientUrl: "https://github.com/Superstahn95/educen",
   },
-  {
-    id: 9,
-    name: "Project Schedule Manager",
-    description:
-      "This is a personal build for scheduling and keeping track of my builds with a little bit of security on the frontend to restrict visitors from seeing my client details and also to restrict them from being able to write to my databases from the client as well. This came out of the need for a self made time management tool for my builds and it was also my first time using GraphQL as my query language with apollo client on the frontend which is quite good for state management and data caching as well. The app is not yet in use but the build is complete at least for now.",
-    link: "https://project-mgr.onrender.com",
-    technologies: [
-      "Javascript",
-      "GraphQL",
-      "Apollo Server",
-      "Apollo Client",
-      "React",
-      "Tailwind",
-      "Node",
-      "Express",
-      "Render",
-    ],
-    imageUrl: "/images/projectschedulemgr.png",
-    completed: false,
-    githubClientUrl:
-      "https://github.com/Superstahn95/project-manager-server-graphQL",
-    githubServerUrl:
-      "https://github.com/Superstahn95/project-manager-server-graphQL",
-  },
+  // {
+  //   id: 9,
+  //   name: "Project Schedule Manager",
+  //   description:
+  //     "This is a personal build for scheduling and keeping track of my builds with a little bit of security on the frontend to restrict visitors from seeing my client details and also to restrict them from being able to write to my databases from the client as well. This came out of the need for a self made time management tool for my builds and it was also my first time using GraphQL as my query language with apollo client on the frontend which is quite good for state management and data caching as well. The app is not yet in use but the build is complete at least for now.",
+  //   link: "https://project-mgr.onrender.com",
+  //   technologies: [
+  //     "Javascript",
+  //     "GraphQL",
+  //     "Apollo Server",
+  //     "Apollo Client",
+  //     "React",
+  //     "Tailwind",
+  //     "Node",
+  //     "Express",
+  //     "Render",
+  //   ],
+  //   imageUrl: "/images/projectschedulemgr.png",
+  //   completed: false,
+  //   githubClientUrl:
+  //     "https://github.com/Superstahn95/project-manager-server-graphQL",
+  //   githubServerUrl:
+  //     "https://github.com/Superstahn95/project-manager-server-graphQL",
+  // },
 ];
