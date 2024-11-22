@@ -9,7 +9,7 @@ function About({ id, onSectionChange }) {
         </h2>
       </div>
       <div>
-        <p className="mb-4">
+        {/* <p className="mb-4">
           In 2022 I wrote my first ever “hello world” with html which happens to
           be the first code output of almost if not all developers out there. I
           went through making traditional static pages with html and css and
@@ -25,6 +25,13 @@ function About({ id, onSectionChange }) {
         <p class="mb-4">
           My main focus these days as it has always been remains to keep
           building projects while in search of real industry experience
+        </p> */}
+        <p className="mb-4">
+          A passionate full-stack developer specializing in the{" "}
+          <span className="text-teal-300"> MERN stack</span>. With a string
+          foundation in both frontend and backend development, I create
+          scalable, efficient and user friendly web applications that drive
+          results.
         </p>
       </div>
     </>
