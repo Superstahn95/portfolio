@@ -56,7 +56,24 @@ export const projects = [
       "https://github.com/Superstahn95/property-listings-frontend",
     githubServerUrl: "https://github.com/Superstahn95/property-listings-server",
   },
-
+  {
+    id: 8,
+    name: "Educen",
+    description:
+      "Although still in progress and just some part of the UI done for now, this build is going to be an online learning platform in which students are assigned to tutors, test and quizzes are taken online as well. Server side and users and admin dashboard still in progress",
+    link: "https://educen.onrender.com",
+    technologies: [
+      "Javascript",
+      "React",
+      "Tailwind",
+      "Node",
+      "Express",
+      "Render",
+    ],
+    imageUrl: "/images/educen.png",
+    completed: false,
+    githubClientUrl: "https://github.com/Superstahn95/educen",
+  },
   {
     id: 3,
     name: "GetLinked UI",
@@ -141,24 +158,7 @@ export const projects = [
     githubClientUrl: "https://github.com/Superstahn95/analytics-dashboard",
     completed: true,
   },
-  {
-    id: 8,
-    name: "Educen",
-    description:
-      "Although still in progress and just some part of the UI done for now, this build is going to be an online learning platform in which students are assigned to tutors, test and quizzes are taken online as well. Server side and users and admin dashboard still in progress",
-    link: "https://educen.onrender.com",
-    technologies: [
-      "Javascript",
-      "React",
-      "Tailwind",
-      "Node",
-      "Express",
-      "Render",
-    ],
-    imageUrl: "/images/educen.png",
-    completed: false,
-    githubClientUrl: "https://github.com/Superstahn95/educen",
-  },
+
   // {
   //   id: 9,
   //   name: "Project Schedule Manager",
