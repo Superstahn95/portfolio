@@ -1,18 +1,51 @@
 export const experiences = [
   {
     id: 1,
+    // organization: "Freelance web developer",
+    position: "Freelance Web developer",
+    // specifics: "Web instructor",
+    description:
+      "As a freelance developer, i took part in some collaborative builds with codestack technologies in implementing proposed user interfaces.",
+    startYear: "2023",
+    endYear: "present",
+    languages: ["html", "css", "javascript", "react", "nodeJs", "typescript"],
+  },
+  {
+    id: 2,
     organization: "Dunis Technologies",
     position: "Technical staff and instructor",
     specifics: "Web instructor",
     description:
       "The organization is a techncal institute for different age brackets ranging from kids to adults for different tech fields. I was a trainer in charge of the web classes which covered both html, css and javascript. I was also tasked with looking for software solutions on malfunctioning client computers and general facility maintenance. On a few occassions, i was charged with coming up with web builds for exhibition for the organization ",
-    startYear: "2022",
+    startYear: "2021",
     endYear: "2023",
     languages: ["html", "css", "javascript", "react"],
   },
 ];
 
 export const projects = [
+  {
+    id: 16,
+    name: "alround",
+    description:
+      "This was a collaborative build between I and the codestack technologies team. It is a platform for freelancers and potential employers which is geared towards streamlining hiring processes for contract. I played a vital role in this build by implementing some parts of the user interface.",
+    imageUrl: "/images/jobs.png",
+    technologies: ["html", "css", "javascript", "bootstrap", "laravel"],
+    completed: true,
+    link: "https://proove.ng",
+    year: 2024,
+  },
+  {
+    id: 15,
+    name: "proove",
+    description:
+      "Another collaborative build between I and the codestack technologies team. Proove is a new and upcoming mobile accessories brand. Just like the previous collaboration with the codestack technologies team, this codebase is a heavily laravel based and i played a major role in the UI implementaion.",
+    imageUrl: "/images/proove.png",
+    technologies: ["html", "css", "javascript", "bootstrap", "laravel"],
+    completed: true,
+    link: "https://alroundjobs.com",
+    year: 2024,
+  },
   {
     id: 1,
     name: "Eatwithus",
@@ -32,6 +65,7 @@ export const projects = [
     githubClientUrl: "https://github.com/Superstahn95/food-app-client",
     githubServerUrl:
       "https://github.com/Superstahn95/express-typescript-food-api",
+    year: 2024,
   },
   {
     id: 2,
@@ -55,6 +89,7 @@ export const projects = [
     githubClientUrl:
       "https://github.com/Superstahn95/property-listings-frontend",
     githubServerUrl: "https://github.com/Superstahn95/property-listings-server",
+    year: 2023,
   },
   {
     id: 8,
@@ -73,6 +108,7 @@ export const projects = [
     imageUrl: "/images/educen.png",
     completed: false,
     githubClientUrl: "https://github.com/Superstahn95/educen",
+    year: 2023,
   },
   {
     id: 3,
@@ -84,6 +120,7 @@ export const projects = [
     completed: true,
     technologies: ["React", "Redux", "Render", "Javascript", "Firebase"],
     githubClientUrl: "https://github.com/Superstahn95/getlinked-react",
+    year: 2023,
   },
   {
     id: 4,
@@ -105,6 +142,7 @@ export const projects = [
     ],
     githubClientUrl: "https://github.com/Superstahn95/fashion-E-commerce-web",
     githubServerUrl: "https://github.com/Superstahn95/fashion-ecommerce",
+    year: 2023,
   },
   {
     id: 5,
@@ -125,6 +163,7 @@ export const projects = [
     completed: true,
     githubClientUrl: "https://github.com/Superstahn95/dunis-forum",
     githubServerUrl: "https://github.com/Superstahn95/dunis-forum-backend",
+    year: 2022,
   },
   {
     id: 6,
@@ -157,6 +196,7 @@ export const projects = [
     imageUrl: "/images/dashboard-dark.png",
     githubClientUrl: "https://github.com/Superstahn95/analytics-dashboard",
     completed: true,
+    year: 2023,
   },
 
   // {

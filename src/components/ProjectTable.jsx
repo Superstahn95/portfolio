@@ -27,9 +27,12 @@ function ProjectTable() {
       </thead>
       <tbody>
         {projects.map((project) => (
-          <tr class="border-b border-slate-300/10 last:border-none">
+          <tr
+            key={project.id}
+            className="border-b border-slate-300/10 last:border-none"
+          >
             <td className="py-4 pr-4 align-top text-sm">
-              <div class="translate-y-px">2023</div>
+              <div className="translate-y-px">{project.year}</div>
             </td>
             <td className="py-4 pr-4 align-top font-semibold leading-snug text-slate-200">
               <div>{project.name}</div>
@@ -47,10 +50,10 @@ function ProjectTable() {
               )}
             </td>
             <td className="hidden py-4 pr-4 align-top lg:table-cell">
-              <ul class="flex -translate-y-1.5 flex-wrap">
+              <ul className="flex -translate-y-1.5 flex-wrap">
                 {project.technologies.map((tech) => (
                   <li key={tech} className="my-1 mr-1.5">
-                    <div class="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                    <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
                       {tech}
                     </div>
                   </li>
@@ -59,7 +62,7 @@ function ProjectTable() {
             </td>
             <td className=" py-4 pr-4 align-top text-sm ">
               <div className="translate-y-px whitespace-nowrap">
-                <a href={project.link} target="_blank">
+                <a href={project.link} target="_blank" rel="noreferrer">
                   {" "}
                   {project.link}
                 </a>
